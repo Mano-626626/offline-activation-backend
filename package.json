@@ -1,0 +1,11 @@
+// Run with `npm run webhook-info` to see what Telegram currently has on file
+// for your bot's webhook — useful for debugging ("why aren't payments arriving?").
+require("dotenv").config();
+const tg = require("../lib/telegram");
+
+tg.getWebhookInfo()
+  .then((info) => console.log(JSON.stringify(info, null, 2)))
+  .catch((err) => {
+    console.error("❌ Failed:", err.message);
+    process.exit(1);
+  });

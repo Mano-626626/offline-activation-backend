@@ -1,0 +1,27 @@
+// Run once after deploying: `npm run set-webhook -- https://your-backend.onrender.com`
+// Tells Telegram where to send updates (payments, pre_checkout_query, etc).
+require("dotenv").config();
+const tg = require("../lib/telegram");
+
+const baseUrl = process.argv[2];
+if (!baseUrl) {
+  console.error("Usage: npm run set-webhook -- https://your-backend-url.com");
+  process.exit(1);
+}
+
+const secret = process.env.WEBHOOK_SECRET;
+if (!secret) {
+  console.error("WEBHOOK_SECRET is not set in .env — set one first (see .env.example).");
+  process.exit(1);
+}
+
+const webhookUrl = `${baseUrl.replace(/\/$/, "")}/webhook/${secret}`;
+
+tg.setWebhook(webhookUrl, secret)
+  .then(() => {
+    console.log("✅ Webhook set to:", webhookUrl);
+  })
+  .catch((err) => {
+    console.error("❌ Failed to set webhook:", err.message);
+    process.exit(1);
+  });
