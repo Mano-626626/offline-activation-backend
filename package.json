@@ -1,11 +1,21 @@
-// Run with `npm run webhook-info` to see what Telegram currently has on file
-// for your bot's webhook — useful for debugging ("why aren't payments arriving?").
-require("dotenv").config();
-const tg = require("../lib/telegram");
-
-tg.getWebhookInfo()
-  .then((info) => console.log(JSON.stringify(info, null, 2)))
-  .catch((err) => {
-    console.error("❌ Failed:", err.message);
-    process.exit(1);
-  });
+{
+  "name": "offline-activation-backend",
+  "version": "1.0.0",
+  "description": "Backend for the Offline Activation Telegram Mini App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "set-webhook": "node scripts/setWebhook.js",
+    "delete-webhook": "node scripts/deleteWebhook.js",
+    "webhook-info": "node scripts/webhookInfo.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
