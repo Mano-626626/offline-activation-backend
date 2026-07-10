@@ -382,3 +382,4 @@ async function deliverOrder(order, chatId) {
 app.listen(PORT, () => {
   console.log(`Offline Activation backend listening on port ${PORT}`);
 });
+
