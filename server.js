@@ -74,9 +74,15 @@ app.get("/api/health", (req, res) => {
 // Telegram message to a buyer who has actually paid. This endpoint strips it
 // out explicitly so a bug elsewhere can't accidentally leak credentials here.
 // ------------------------------------------------------------------
-app.get("/api/catalog", (req, res) => {
-  const publicCatalog = db.getCatalog().map(({ delivery, ...safe }) => safe);
-  res.json({ games: publicCatalog });
+app.get("/api/catalog", async (req, res) => {
+  try {
+    const catalog = await db.getCatalog();
+    const publicCatalog = catalog.map(({ delivery, ...safe }) => safe);
+    res.json({ games: publicCatalog });
+  } catch (err) {
+    console.error("catalog fetch error:", err);
+    res.status(500).json({ error: "Internal error fetching catalog" });
+  }
 });
 
 // ------------------------------------------------------------------
@@ -94,11 +100,11 @@ app.post("/api/admin/games", async (req, res) => {
       return res.status(400).json({ error: "title, genre, and priceUsd are required" });
     }
 
-    const catalog = db.getCatalog();
+    const catalog = await db.getCatalog();
     const nextNum = catalog.length
       ? Math.max(...catalog.map((g) => parseInt((g.id || "g0").replace(/\D/g, ""), 10) || 0)) + 1
       : 1;
-    const newGame = {
+    const newGame = await db.insertGame({
       id: "g" + nextNum,
       title: String(title).slice(0, 120),
       genre: String(genre).slice(0, 40),
@@ -107,10 +113,7 @@ app.post("/api/admin/games", async (req, res) => {
       desc: String(desc || "").slice(0, 500),
       rating: 4.5,
       imageUrl: imageUrl || null,
-      delivery: { steamLogin: "REPLACE_ME", steamPassword: "REPLACE_ME", note: "Log into this Steam account, install the game, then switch Steam to Offline Mode." },
-    };
-    catalog.push(newGame);
-    await db.saveCatalog(catalog);
+    });
 
     res.json({ game: newGame });
   } catch (err) {
@@ -130,20 +133,20 @@ app.put("/api/admin/games/:id", async (req, res) => {
     if (!auth.ok) return res.status(401).json({ error: "Unauthorized: " + auth.error });
     if (!isAdminUser(auth.user)) return res.status(403).json({ error: "Admin access required" });
 
-    const catalog = db.getCatalog();
-    const game = catalog.find((g) => g.id === req.params.id);
-    if (!game) return res.status(404).json({ error: "Game not found" });
+    const existing = await db.getGameById(req.params.id);
+    if (!existing) return res.status(404).json({ error: "Game not found" });
 
-    if (title !== undefined) game.title = String(title).slice(0, 120);
-    if (genre !== undefined) game.genre = String(genre).slice(0, 40);
+    const fields = {};
+    if (title !== undefined) fields.title = String(title).slice(0, 120);
+    if (genre !== undefined) fields.genre = String(genre).slice(0, 40);
     if (priceUsd !== undefined) {
-      game.priceUsd = Number(priceUsd);
-      game.priceStars = Math.max(1, Math.round(Number(priceUsd) * STARS_PER_USD));
+      fields.priceUsd = Number(priceUsd);
+      fields.priceStars = Math.max(1, Math.round(Number(priceUsd) * STARS_PER_USD));
     }
-    if (desc !== undefined) game.desc = String(desc).slice(0, 500);
-    if (imageUrl !== undefined) game.imageUrl = imageUrl || null;
+    if (desc !== undefined) fields.desc = String(desc).slice(0, 500);
+    if (imageUrl !== undefined) fields.imageUrl = imageUrl || null;
 
-    await db.saveCatalog(catalog);
+    const game = await db.updateGame(req.params.id, fields);
     res.json({ game });
   } catch (err) {
     console.error("update game error:", err);
@@ -162,12 +165,10 @@ app.delete("/api/admin/games/:id", async (req, res) => {
     if (!auth.ok) return res.status(401).json({ error: "Unauthorized: " + auth.error });
     if (!isAdminUser(auth.user)) return res.status(403).json({ error: "Admin access required" });
 
-    const catalog = db.getCatalog();
-    const idx = catalog.findIndex((g) => g.id === req.params.id);
-    if (idx === -1) return res.status(404).json({ error: "Game not found" });
+    const existing = await db.getGameById(req.params.id);
+    if (!existing) return res.status(404).json({ error: "Game not found" });
 
-    catalog.splice(idx, 1);
-    await db.saveCatalog(catalog);
+    await db.deleteGame(req.params.id);
     res.json({ ok: true });
   } catch (err) {
     console.error("delete game error:", err);
@@ -200,7 +201,7 @@ app.post("/api/create-invoice", async (req, res) => {
     const lineItems = [];
     let totalStars = 0;
     for (const line of items) {
-      const game = db.getGameById(line.id);
+      const game = await db.getGameById(line.id);
       if (!game) {
         return res.status(400).json({ error: `Unknown game id: ${line.id}` });
       }
@@ -272,7 +273,7 @@ app.post("/api/checkout-from-balance", async (req, res) => {
     const lineItems = [];
     let totalStars = 0;
     for (const line of items) {
-      const game = db.getGameById(line.id);
+      const game = await db.getGameById(line.id);
       if (!game) {
         return res.status(400).json({ error: `Unknown game id: ${line.id}` });
       }
@@ -289,7 +290,7 @@ app.post("/api/checkout-from-balance", async (req, res) => {
       return res.status(402).json({
         error: "Insufficient balance",
         requiredStars: totalStars,
-        balanceStars: db.getBalance(user.id),
+        balanceStars: await db.getBalance(user.id),
       });
     }
 
@@ -321,12 +322,12 @@ app.post("/api/checkout-from-balance", async (req, res) => {
 // ------------------------------------------------------------------
 // GET /api/balance — current wallet balance for the calling user.
 // ------------------------------------------------------------------
-app.get("/api/balance", (req, res) => {
+app.get("/api/balance", async (req, res) => {
   const auth = verifyInitData(req.query.initData, BOT_TOKEN);
   if (!auth.ok) {
     return res.status(401).json({ error: "Unauthorized: " + auth.error });
   }
-  res.json({ balanceStars: db.getBalance(auth.user.id) });
+  res.json({ balanceStars: await db.getBalance(auth.user.id) });
 });
 
 // ------------------------------------------------------------------
@@ -339,7 +340,7 @@ app.get("/api/referral/me", async (req, res) => {
     return res.status(401).json({ error: "Unauthorized: " + auth.error });
   }
   const code = await db.getOrCreateReferralCode(auth.user.id);
-  const stats = db.getReferralStats(auth.user.id);
+  const stats = await db.getReferralStats(auth.user.id);
   res.json({ code, invited: stats.invited, converted: stats.converted, earnedStars: stats.earnedStars });
 });
 
@@ -509,12 +510,13 @@ app.post("/api/create-topup-crypto", async (req, res) => {
 });
 
 
-app.get("/api/orders", (req, res) => {
+app.get("/api/orders", async (req, res) => {
   const auth = verifyInitData(req.query.initData, BOT_TOKEN);
   if (!auth.ok) {
     return res.status(401).json({ error: "Unauthorized: " + auth.error });
   }
-  const orders = db.getOrdersForUser(auth.user.id).filter((o) => o.status === "paid");
+  const allOrders = await db.getOrdersForUser(auth.user.id);
+  const orders = allOrders.filter((o) => o.status === "paid");
   res.json({ orders });
 });
 
@@ -540,7 +542,7 @@ app.post("/webhook/:secret", async (req, res) => {
   try {
     if (update.pre_checkout_query) {
       const pcq = update.pre_checkout_query;
-      const order = db.getOrderById(pcq.invoice_payload);
+      const order = await db.getOrderById(pcq.invoice_payload);
       if (!order || order.status !== "pending") {
         await tg.answerPreCheckoutQuery(pcq.id, false, "This order is no longer available.");
       } else {
@@ -621,7 +623,7 @@ app.post("/webhook/walletpay/:secret", async (req, res) => {
 async function deliverOrder(order, chatId) {
   const lines = [`✅ <b>Payment confirmed</b> — order ${order.id}\n`];
   for (const line of order.items) {
-    const game = db.getGameById(line.id);
+    const game = await db.getGameById(line.id);
     const delivery = game && game.delivery;
     lines.push(`🔑 <b>${line.title}</b> ×${line.qty}`);
     if (delivery && delivery.steamLogin && delivery.steamLogin !== "REPLACE_ME") {
@@ -659,7 +661,29 @@ async function notifyAdmins(order, buyer) {
   }
 }
 
-app.listen(PORT, () => {
+// On startup, if the database has no games yet (brand new database), load
+// the starter catalog from data/catalog.json automatically. This means
+// connecting a fresh database "just works" — no manual script to run.
+// Once the admin panel has been used to add/edit real games, this won't run
+// again (it only fires when the games table is completely empty).
+async function autoSeedCatalogIfEmpty() {
+  try {
+    const existing = await db.getCatalog();
+    if (existing.length > 0) return;
+    const catalogPath = require("path").join(__dirname, "data", "catalog.json");
+    const fs = require("fs");
+    if (!fs.existsSync(catalogPath)) return;
+    const starterCatalog = JSON.parse(fs.readFileSync(catalogPath, "utf8"));
+    await db.saveCatalog(starterCatalog);
+    console.log(`Auto-seeded database with ${starterCatalog.length} starter games.`);
+  } catch (err) {
+    console.error("Auto-seed check failed (this is not fatal — the app will still run):", err.message);
+  }
+}
+
+app.listen(PORT, async () => {
   console.log(`Offline Activation backend listening on port ${PORT}`);
+  await autoSeedCatalogIfEmpty();
 });
+
 
