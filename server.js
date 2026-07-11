@@ -663,4 +663,3 @@ app.listen(PORT, () => {
   console.log(`Offline Activation backend listening on port ${PORT}`);
 });
 
-
