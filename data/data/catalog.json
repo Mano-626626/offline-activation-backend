@@ -5,9 +5,12 @@
     "genre": "Action",
     "priceUsd": 1.99,
     "priceStars": 153,
+    "desc": "Open-world crime saga across Los Santos.",
+    "rating": 4.8,
+    "imageUrl": null,
     "delivery": {
-      "steamLogin": "REPLACE_ME",
-      "steamPassword": "REPLACE_ME",
+      "steamLogin": "TEST_LOGIN_DO_NOT_USE",
+      "steamPassword": "TEST_PASSWORD_12345",
       "note": "Log into this Steam account, install the game, then switch Steam to Offline Mode."
     }
   },
@@ -17,6 +20,9 @@
     "genre": "Adventure",
     "priceUsd": 1.99,
     "priceStars": 153,
+    "desc": "Epic outlaw tale in the fading American frontier.",
+    "rating": 4.9,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -29,6 +35,9 @@
     "genre": "RPG",
     "priceUsd": 1.79,
     "priceStars": 138,
+    "desc": "Neon dystopia open-world with deep character builds.",
+    "rating": 4.6,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -41,6 +50,9 @@
     "genre": "RPG",
     "priceUsd": 1.99,
     "priceStars": 153,
+    "desc": "Sprawling dark-fantasy world from FromSoftware.",
+    "rating": 4.9,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -53,6 +65,9 @@
     "genre": "Action",
     "priceUsd": 1.99,
     "priceStars": 153,
+    "desc": "Mythic action-RPG inspired by Journey to the West.",
+    "rating": 4.7,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -65,6 +80,9 @@
     "genre": "RPG",
     "priceUsd": 1.79,
     "priceStars": 138,
+    "desc": "Open-world wizarding adventure at Hogwarts.",
+    "rating": 4.5,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -77,6 +95,9 @@
     "genre": "RPG",
     "priceUsd": 1.99,
     "priceStars": 153,
+    "desc": "Party-based D&D epic with limitless choice.",
+    "rating": 4.9,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -89,6 +110,9 @@
     "genre": "Adventure",
     "priceUsd": 1.79,
     "priceStars": 138,
+    "desc": "Cinematic post-apocalyptic survival story.",
+    "rating": 4.8,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -101,6 +125,9 @@
     "genre": "Action",
     "priceUsd": 1.49,
     "priceStars": 115,
+    "desc": "Kratos and Atreus journey through Norse myth.",
+    "rating": 4.8,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -113,6 +140,9 @@
     "genre": "Action",
     "priceUsd": 1.99,
     "priceStars": 153,
+    "desc": "The Norse saga concludes in epic fashion.",
+    "rating": 4.9,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -125,6 +155,9 @@
     "genre": "Action",
     "priceUsd": 1.79,
     "priceStars": 138,
+    "desc": "Samurai revenge tale on feudal Tsushima Island.",
+    "rating": 4.8,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -137,6 +170,9 @@
     "genre": "Action",
     "priceUsd": 1.49,
     "priceStars": 115,
+    "desc": "Swing through New York as the web-slinger.",
+    "rating": 4.7,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -149,6 +185,9 @@
     "genre": "Action",
     "priceUsd": 1.99,
     "priceStars": 153,
+    "desc": "Dual Spider-Men face Venom in NYC.",
+    "rating": 4.7,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -161,6 +200,9 @@
     "genre": "Horror",
     "priceUsd": 1.49,
     "priceStars": 115,
+    "desc": "Reimagined survival-horror classic.",
+    "rating": 4.8,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -173,6 +215,9 @@
     "genre": "Horror",
     "priceUsd": 1.29,
     "priceStars": 99,
+    "desc": "Gothic horror in a monster-filled village.",
+    "rating": 4.6,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -185,6 +230,9 @@
     "genre": "Horror",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Raccoon City remake of a genre-defining classic.",
+    "rating": 4.7,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -197,6 +245,9 @@
     "genre": "Racing",
     "priceUsd": 1.49,
     "priceStars": 115,
+    "desc": "Open-world racing across vibrant Mexico.",
+    "rating": 4.7,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -209,6 +260,9 @@
     "genre": "Simulation",
     "priceUsd": 1.79,
     "priceStars": 138,
+    "desc": "Photoreal planet-scale flight sim.",
+    "rating": 4.5,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -221,6 +275,9 @@
     "genre": "Simulation",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Haul freight across a detailed Europe.",
+    "rating": 4.6,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -233,6 +290,9 @@
     "genre": "Simulation",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Long-haul trucking across the USA.",
+    "rating": 4.4,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -245,6 +305,9 @@
     "genre": "Survival",
     "priceUsd": 1.49,
     "priceStars": 115,
+    "desc": "Mutant-infested island survival sequel.",
+    "rating": 4.4,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -257,6 +320,9 @@
     "genre": "Survival",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Crash-landed cannibal-island survival horror.",
+    "rating": 4.5,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -269,6 +335,9 @@
     "genre": "Horror",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Co-op scavenging horror comedy.",
+    "rating": 4.6,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -281,6 +350,9 @@
     "genre": "Horror",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Co-op ghost-hunting with real-time voice.",
+    "rating": 4.5,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -293,6 +365,9 @@
     "genre": "Shooter",
     "priceUsd": 1.49,
     "priceStars": 115,
+    "desc": "Tactical SWAT breach-and-clear shooter.",
+    "rating": 4.5,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -305,6 +380,9 @@
     "genre": "Shooter",
     "priceUsd": 1.99,
     "priceStars": 153,
+    "desc": "High-octane modern military shooter.",
+    "rating": 4.1,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -317,6 +395,9 @@
     "genre": "Shooter",
     "priceUsd": 1.99,
     "priceStars": 153,
+    "desc": "Fast-paced black-ops campaign and multiplayer.",
+    "rating": 4.3,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -329,6 +410,9 @@
     "genre": "Sports",
     "priceUsd": 1.99,
     "priceStars": 153,
+    "desc": "The world's game, reimagined each season.",
+    "rating": 4.2,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -341,6 +425,9 @@
     "genre": "Sports",
     "priceUsd": 1.99,
     "priceStars": 153,
+    "desc": "The definitive basketball simulation.",
+    "rating": 4,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -353,6 +440,9 @@
     "genre": "Fighting",
     "priceUsd": 1.79,
     "priceStars": 138,
+    "desc": "Brutal reboot of the iconic fighting saga.",
+    "rating": 4.5,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -365,6 +455,9 @@
     "genre": "Fighting",
     "priceUsd": 1.99,
     "priceStars": 153,
+    "desc": "Next-gen entry in the legendary fighting series.",
+    "rating": 4.6,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -377,6 +470,9 @@
     "genre": "Fighting",
     "priceUsd": 1.79,
     "priceStars": 138,
+    "desc": "Stylish, accessible, endlessly deep fighter.",
+    "rating": 4.6,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -389,6 +485,9 @@
     "genre": "Indie",
     "priceUsd": 1.49,
     "priceStars": 115,
+    "desc": "Roguelike sequel diving into the Underworld.",
+    "rating": 4.8,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -401,6 +500,9 @@
     "genre": "Indie",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Escape the Underworld in this acclaimed roguelike.",
+    "rating": 4.9,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -413,6 +515,9 @@
     "genre": "Indie",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Beautifully hand-drawn metroidvania.",
+    "rating": 4.8,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -425,6 +530,9 @@
     "genre": "Indie",
     "priceUsd": 1.49,
     "priceStars": 115,
+    "desc": "Hornet's journey through Pharloom.",
+    "rating": 4.9,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -437,6 +545,9 @@
     "genre": "Indie",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "2D sandbox adventure with endless crafting.",
+    "rating": 4.8,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -449,6 +560,9 @@
     "genre": "Simulation",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Cozy farming and small-town life sim.",
+    "rating": 4.9,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -461,6 +575,9 @@
     "genre": "Survival",
     "priceUsd": 1.29,
     "priceStars": 99,
+    "desc": "Viking-themed procedurally generated survival.",
+    "rating": 4.7,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -473,6 +590,9 @@
     "genre": "Adventure",
     "priceUsd": 1.49,
     "priceStars": 115,
+    "desc": "Explore an infinite procedural universe.",
+    "rating": 4.4,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -485,6 +605,9 @@
     "genre": "Strategy",
     "priceUsd": 1.79,
     "priceStars": 138,
+    "desc": "Build an empire to stand the test of time.",
+    "rating": 4.6,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -497,6 +620,9 @@
     "genre": "Strategy",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "The beloved turn-based empire builder.",
+    "rating": 4.6,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -509,6 +635,9 @@
     "genre": "Strategy",
     "priceUsd": 1.79,
     "priceStars": 138,
+    "desc": "Medieval dynasty and grand-strategy sim.",
+    "rating": 4.7,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -521,6 +650,9 @@
     "genre": "Strategy",
     "priceUsd": 1.49,
     "priceStars": 115,
+    "desc": "Colony sim driven by emergent storytelling.",
+    "rating": 4.9,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -533,6 +665,9 @@
     "genre": "Strategy",
     "priceUsd": 1.29,
     "priceStars": 99,
+    "desc": "Automate everything in this factory-builder.",
+    "rating": 4.9,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -545,6 +680,9 @@
     "genre": "Simulation",
     "priceUsd": 1.49,
     "priceStars": 115,
+    "desc": "First-person factory-building on an alien planet.",
+    "rating": 4.8,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -557,6 +695,9 @@
     "genre": "Survival",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Deep isometric zombie survival sandbox.",
+    "rating": 4.5,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -569,6 +710,9 @@
     "genre": "Simulation",
     "priceUsd": 1.79,
     "priceStars": 138,
+    "desc": "Detailed modern city-building sim.",
+    "rating": 3.9,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -581,6 +725,9 @@
     "genre": "Simulation",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "The city-builder that redefined the genre.",
+    "rating": 4.6,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -593,6 +740,9 @@
     "genre": "RPG",
     "priceUsd": 1.99,
     "priceStars": 153,
+    "desc": "Grounded medieval open-world RPG.",
+    "rating": 4.8,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -605,6 +755,9 @@
     "genre": "RPG",
     "priceUsd": 1.79,
     "priceStars": 138,
+    "desc": "Bethesda's space-faring open-world RPG.",
+    "rating": 4,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -617,6 +770,9 @@
     "genre": "RPG",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Legendary open-world fantasy epic.",
+    "rating": 4.8,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -629,6 +785,9 @@
     "genre": "RPG",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Post-nuclear open-world adventure.",
+    "rating": 4.5,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -641,6 +800,9 @@
     "genre": "RPG",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Fan-favorite wasteland RPG with deep choices.",
+    "rating": 4.7,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -653,6 +815,9 @@
     "genre": "RPG",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Sprawling monster-hunting fantasy epic.",
+    "rating": 4.9,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -665,6 +830,9 @@
     "genre": "RPG",
     "priceUsd": 1.29,
     "priceStars": 99,
+    "desc": "Punishing, atmospheric dark-fantasy action-RPG.",
+    "rating": 4.8,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -677,6 +845,9 @@
     "genre": "Action",
     "priceUsd": 1.49,
     "priceStars": 115,
+    "desc": "Precision sword combat in Sengoku Japan.",
+    "rating": 4.8,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -689,6 +860,9 @@
     "genre": "RPG",
     "priceUsd": 1.29,
     "priceStars": 99,
+    "desc": "Gothic horror action-RPG from FromSoftware.",
+    "rating": 4.8,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -701,6 +875,9 @@
     "genre": "Adventure",
     "priceUsd": 1.29,
     "priceStars": 99,
+    "desc": "Genre-defying delivery odyssey.",
+    "rating": 4.2,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -713,6 +890,9 @@
     "genre": "Adventure",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Hunt machines in a lush post-apocalyptic world.",
+    "rating": 4.7,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -725,6 +905,9 @@
     "genre": "Adventure",
     "priceUsd": 1.79,
     "priceStars": 138,
+    "desc": "Aloy's journey continues across a wild frontier.",
+    "rating": 4.6,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -737,6 +920,9 @@
     "genre": "Adventure",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Biker survival across a zombie-ravaged Oregon.",
+    "rating": 4.3,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -749,6 +935,9 @@
     "genre": "RPG",
     "priceUsd": 1.49,
     "priceStars": 115,
+    "desc": "Spy-thriller expansion set in Dogtown.",
+    "rating": 4.7,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -761,6 +950,9 @@
     "genre": "Indie",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Mind-bending physics puzzler with dark wit.",
+    "rating": 4.9,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -773,6 +965,9 @@
     "genre": "Shooter",
     "priceUsd": 1.49,
     "priceStars": 115,
+    "desc": "VR return to the Half-Life universe.",
+    "rating": 4.8,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -785,6 +980,9 @@
     "genre": "Shooter",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Co-op zombie-horde survival shooter.",
+    "rating": 4.6,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -797,6 +995,9 @@
     "genre": "Shooter",
     "priceUsd": 1.29,
     "priceStars": 99,
+    "desc": "Hyper-fast demon-slaying shooter.",
+    "rating": 4.7,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -809,6 +1010,9 @@
     "genre": "Shooter",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "The brutal reboot that redefined the FPS.",
+    "rating": 4.7,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -821,6 +1025,9 @@
     "genre": "Shooter",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Alt-history Nazi-resistance shooter.",
+    "rating": 4.5,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -833,6 +1040,9 @@
     "genre": "Action",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Stealth-action with supernatural powers.",
+    "rating": 4.6,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -845,6 +1055,9 @@
     "genre": "Shooter",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Atmospheric sci-fi immersive sim.",
+    "rating": 4.5,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -857,6 +1070,9 @@
     "genre": "RPG",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Cyberpunk immersive-sim with player choice.",
+    "rating": 4.4,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -869,6 +1085,9 @@
     "genre": "Shooter",
     "priceUsd": 1.29,
     "priceStars": 99,
+    "desc": "Post-apocalyptic survival shooter across Russia.",
+    "rating": 4.6,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -881,6 +1100,9 @@
     "genre": "Shooter",
     "priceUsd": 1.79,
     "priceStars": 138,
+    "desc": "Open-world survival horror in the Zone.",
+    "rating": 4.1,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -893,6 +1115,9 @@
     "genre": "Horror",
     "priceUsd": 1.99,
     "priceStars": 153,
+    "desc": "Psychological survival-horror thriller.",
+    "rating": 4.7,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -905,6 +1130,9 @@
     "genre": "Action",
     "priceUsd": 1.29,
     "priceStars": 99,
+    "desc": "Supernatural action in the shifting Oldest House.",
+    "rating": 4.5,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -917,6 +1145,9 @@
     "genre": "Horror",
     "priceUsd": 1.49,
     "priceStars": 115,
+    "desc": "Remake of the sci-fi survival-horror classic.",
+    "rating": 4.7,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -929,6 +1160,9 @@
     "genre": "Horror",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Found-footage style asylum horror.",
+    "rating": 4.4,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -941,6 +1175,9 @@
     "genre": "Horror",
     "priceUsd": 1.29,
     "priceStars": 99,
+    "desc": "Claustrophobic WWI survival horror.",
+    "rating": 4.4,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -953,6 +1190,9 @@
     "genre": "Horror",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Eerie atmospheric puzzle-platformer.",
+    "rating": 4.6,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -965,6 +1205,9 @@
     "genre": "RPG",
     "priceUsd": 1.29,
     "priceStars": 99,
+    "desc": "Hunt colossal beasts in a living ecosystem.",
+    "rating": 4.7,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -977,6 +1220,9 @@
     "genre": "RPG",
     "priceUsd": 1.29,
     "priceStars": 99,
+    "desc": "Fast-paced monster hunting with Wirebugs.",
+    "rating": 4.6,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -989,6 +1235,9 @@
     "genre": "RPG",
     "priceUsd": 1.99,
     "priceStars": 153,
+    "desc": "Pawn-driven open-world fantasy epic.",
+    "rating": 4.3,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1001,6 +1250,9 @@
     "genre": "RPG",
     "priceUsd": 1.79,
     "priceStars": 138,
+    "desc": "Reimagining of the JRPG classic.",
+    "rating": 4.7,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1013,6 +1265,9 @@
     "genre": "RPG",
     "priceUsd": 1.79,
     "priceStars": 138,
+    "desc": "Action-driven dark-fantasy epic.",
+    "rating": 4.5,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1025,6 +1280,9 @@
     "genre": "RPG",
     "priceUsd": 1.49,
     "priceStars": 115,
+    "desc": "Stylish turn-based JRPG about phantom thieves.",
+    "rating": 4.9,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1037,6 +1295,9 @@
     "genre": "RPG",
     "priceUsd": 1.29,
     "priceStars": 99,
+    "desc": "Philosophical action-RPG about androids.",
+    "rating": 4.8,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1049,6 +1310,9 @@
     "genre": "RPG",
     "priceUsd": 1.79,
     "priceStars": 138,
+    "desc": "Dark, gothic action-RPG loot hunt.",
+    "rating": 4.3,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1061,6 +1325,9 @@
     "genre": "RPG",
     "priceUsd": 1.49,
     "priceStars": 115,
+    "desc": "Deep, brutal action-RPG loot grind.",
+    "rating": 4.5,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1073,6 +1340,9 @@
     "genre": "RPG",
     "priceUsd": 1.49,
     "priceStars": 115,
+    "desc": "Party-based fantasy RPG with elemental combat.",
+    "rating": 4.8,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1085,6 +1355,9 @@
     "genre": "RPG",
     "priceUsd": 1.29,
     "priceStars": 99,
+    "desc": "Narrative-driven detective RPG unlike any other.",
+    "rating": 4.9,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1097,6 +1370,9 @@
     "genre": "Indie",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Cute-yet-sinister cult management roguelike.",
+    "rating": 4.6,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1109,6 +1385,9 @@
     "genre": "Indie",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "The deckbuilding roguelike that started a genre.",
+    "rating": 4.8,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1121,6 +1400,9 @@
     "genre": "Indie",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Addictive minimalist survivors-like.",
+    "rating": 4.8,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1133,6 +1415,9 @@
     "genre": "Adventure",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Explore a neon cybercity as a stray cat.",
+    "rating": 4.6,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1145,6 +1430,9 @@
     "genre": "Adventure",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Time-loop space-exploration mystery.",
+    "rating": 4.9,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1157,6 +1445,9 @@
     "genre": "Indie",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Rule-bending puzzle game about language.",
+    "rating": 4.7,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1169,6 +1460,9 @@
     "genre": "RPG",
     "priceUsd": 1.99,
     "priceStars": 153,
+    "desc": "Turn-based French RPG epic across a surreal, crumbling world.",
+    "rating": 4.8,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1181,6 +1475,9 @@
     "genre": "Horror",
     "priceUsd": 1.79,
     "priceStars": 138,
+    "desc": "Atmospheric psychological horror remake set in a fog-shrouded town.",
+    "rating": 4.6,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1193,6 +1490,9 @@
     "genre": "Action",
     "priceUsd": 1.29,
     "priceStars": 99,
+    "desc": "A new hero swings through a snow-covered New York for the holidays.",
+    "rating": 4.6,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1205,6 +1505,9 @@
     "genre": "RPG",
     "priceUsd": 1.99,
     "priceStars": 153,
+    "desc": "Second chapter of the reimagined classic, an epic open-world journey.",
+    "rating": 4.7,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1217,6 +1520,9 @@
     "genre": "Horror",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Raccoon City remake pitting Jill Valentine against Nemesis.",
+    "rating": 4.4,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1229,6 +1535,9 @@
     "genre": "Action",
     "priceUsd": 1.29,
     "priceStars": 99,
+    "desc": "Dark Soulslike reimagining of Pinocchio in a gothic Belle Époque city.",
+    "rating": 4.5,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1241,6 +1550,9 @@
     "genre": "RPG",
     "priceUsd": 1.49,
     "priceStars": 115,
+    "desc": "Punishing action-RPG set in a plague-ravaged fantasy China.",
+    "rating": 4,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1253,6 +1565,9 @@
     "genre": "Shooter",
     "priceUsd": 1.49,
     "priceStars": 115,
+    "desc": "Brutal third-person carnage against Tyranid hordes.",
+    "rating": 4.6,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1265,6 +1580,9 @@
     "genre": "Adventure",
     "priceUsd": 1.79,
     "priceStars": 138,
+    "desc": "First-person globetrotting adventure starring the famous archaeologist.",
+    "rating": 4.5,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1277,6 +1595,9 @@
     "genre": "Shooter",
     "priceUsd": 1.29,
     "priceStars": 99,
+    "desc": "Surreal Soviet retro-futuristic shooter against rogue robots.",
+    "rating": 4.2,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1289,6 +1610,9 @@
     "genre": "Adventure",
     "priceUsd": 1.29,
     "priceStars": 99,
+    "desc": "Siblings flee plague and rat swarms across war-torn medieval France.",
+    "rating": 4.6,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1301,6 +1625,9 @@
     "genre": "Adventure",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "The first chapter of a haunting tale of survival and rats.",
+    "rating": 4.5,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1313,6 +1640,9 @@
     "genre": "Action",
     "priceUsd": 1.79,
     "priceStars": 138,
+    "desc": "Cal Kestis continues his Jedi journey across a galaxy in hiding.",
+    "rating": 4.5,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1325,6 +1655,9 @@
     "genre": "Action",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "A young Jedi evades the Empire in this Souls-inspired adventure.",
+    "rating": 4.5,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1337,6 +1670,9 @@
     "genre": "Action",
     "priceUsd": 1.29,
     "priceStars": 99,
+    "desc": "Dimension-hopping platformer bursting with gadgets and colour.",
+    "rating": 4.7,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1349,6 +1685,9 @@
     "genre": "Adventure",
     "priceUsd": 1.29,
     "priceStars": 99,
+    "desc": "Two cinematic treasure-hunting adventures in one remastered pack.",
+    "rating": 4.6,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1361,6 +1700,9 @@
     "genre": "Shooter",
     "priceUsd": 1.29,
     "priceStars": 99,
+    "desc": "Roguelike bullet-hell survival on a shape-shifting alien world.",
+    "rating": 4.5,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1373,6 +1715,9 @@
     "genre": "RPG",
     "priceUsd": 1.79,
     "priceStars": 138,
+    "desc": "Remake of the beloved dark, stylish turn-based JRPG classic.",
+    "rating": 4.7,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1385,6 +1730,9 @@
     "genre": "RPG",
     "priceUsd": 1.79,
     "priceStars": 138,
+    "desc": "Kasuga's saga heads to Hawaii in this heartfelt, hilarious RPG.",
+    "rating": 4.8,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1397,6 +1745,9 @@
     "genre": "Adventure",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Kamurocho noir detective drama from the makers of Like a Dragon.",
+    "rating": 4.5,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1409,6 +1760,9 @@
     "genre": "Adventure",
     "priceUsd": 1.29,
     "priceStars": 99,
+    "desc": "The detective saga continues with a school-set mystery.",
+    "rating": 4.6,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1421,6 +1775,9 @@
     "genre": "Horror",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Claustrophobic sci-fi survival horror aboard a prison moon.",
+    "rating": 3.9,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1433,6 +1790,9 @@
     "genre": "Adventure",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Remake of the classic Prohibition-era crime saga.",
+    "rating": 4.3,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
@@ -1445,6 +1805,9 @@
     "genre": "Adventure",
     "priceUsd": 0.99,
     "priceStars": 76,
+    "desc": "Vito's rise through the mob in a remastered 1940s-50s crime epic.",
+    "rating": 4.2,
+    "imageUrl": null,
     "delivery": {
       "steamLogin": "REPLACE_ME",
       "steamPassword": "REPLACE_ME",
