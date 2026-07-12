@@ -49,7 +49,10 @@ app.use(
 );
 // `verify` stashes the raw bytes on the request — needed to check the Wallet
 // Pay webhook signature, which is computed over the exact raw request body.
-app.use(express.json({ verify: (req, res, buf) => { req.rawBody = buf; } }));
+// Default body-size limit is 100kb — too small for game cover images sent as
+// base64 (the admin panel's upload/paste feature). 8mb comfortably covers a
+// typical photo once base64-encoded.
+app.use(express.json({ limit: "8mb", verify: (req, res, buf) => { req.rawBody = buf; } }));
 
 if (!BOT_TOKEN) {
   console.warn(
@@ -685,5 +688,3 @@ app.listen(PORT, async () => {
   console.log(`Offline Activation backend listening on port ${PORT}`);
   await autoSeedCatalogIfEmpty();
 });
-
-
