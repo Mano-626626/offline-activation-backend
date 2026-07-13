@@ -4,7 +4,7 @@
   "description": "Backend for the Offline Activation Telegram Mini App — Telegram Stars payments via createInvoiceLink",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node --max-old-space-size=400 server.js",
     "dev": "node --watch server.js",
     "set-webhook": "node scripts/setWebhook.js",
     "delete-webhook": "node scripts/deleteWebhook.js",
